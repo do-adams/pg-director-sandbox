@@ -1,0 +1,70 @@
+.pd-css-logo {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  align-items: center;
+  background-color: rgba(255, 64, 129, 0.12);
+  border-radius: 1.125rem;
+  box-shadow: inset 0 0 0 1px currentColor;
+  color: inherit;
+  display: inline-flex;
+  font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 700;
+  height: 2.25rem;
+  justify-content: center;
+  line-height: 1;
+  position: relative;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 2.25rem;
+  z-index: 1;
+}
+
+.pd-css-logo[href]:active, .pd-css-logo[href]:focus, .pd-css-logo[href]:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pd-css-logo[href]:active::before, .pd-css-logo[href]:focus::before, .pd-css-logo[href]:hover::before {
+  opacity: 0.12;
+}
+
+.pd-css-logo[href]::before {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: currentColor;
+  border-radius: 1.125rem;
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (min-width: 576px) {
+  .pd-css-logo[href]::before {
+      transition-duration: 0.39s;
+  }
+}
+
+@media (min-width: 992px) {
+  .pd-css-logo[href]::before {
+      transition-duration: 0.2s;
+  }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .pd-css-logo[href]::before {
+      transition: none;
+  }
+}
+
+.pd-css-logo:focus {
+  outline: 0;
+}
