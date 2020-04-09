@@ -1,0 +1,23 @@
+{
+  "name": "pg-director-sandbox",
+  "version": "1.0.0",
+  "description": "A front-end sandbox for PG Director",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "4.1.1",
+    "daemonite-material": "^4.1.1",
+    "jquery": "3.3.1",
+    "pickadate": "3.6.4",
+    "popper.js": "1.14.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
