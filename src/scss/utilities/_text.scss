@@ -11,6 +11,16 @@
   overflow-wrap: break-word !important;
 }
 
+.text-ellipsis {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
 .cursor-pointer {
   cursor: pointer !important;
 }
