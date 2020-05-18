@@ -23,3 +23,13 @@ window.jQuery = $;
 /* START THIRD-PARTY JAVASCRIPT LIBRARIES */
 
 /* END THIRD-PARTY JAVASCRIPT LIBRARIES */
+
+/* START VUE */
+
+import Vue from 'vue';
+import App from './vue/App.vue';
+
+Vue.config.productionTip = false;
+new Vue({ render: createElement => createElement(App) }).$mount('#app');
+
+/* END VUE */
