@@ -27,9 +27,14 @@ window.jQuery = $;
 /* START VUE */
 
 import Vue from 'vue';
-import App from './vue/App.vue';
+import VueRouter from 'vue-router';
 
 Vue.config.productionTip = false;
-new Vue({ render: createElement => createElement(App) }).$mount('#app');
+Vue.use(VueRouter);
+
+import router from './vue/router.js';
+import App from './vue/App.vue';
+
+new Vue({ router, render: createElement => createElement(App) }).$mount('#app');
 
 /* END VUE */
