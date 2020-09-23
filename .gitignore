@@ -1,0 +1,9 @@
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# Parcel related files
+dist/
+.cache/
+wwwroot/bundles/
