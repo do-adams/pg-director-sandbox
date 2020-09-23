@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "4.1.1",
     "daemonite-material": "4.1.1",
     "jquery": "3.3.1",
