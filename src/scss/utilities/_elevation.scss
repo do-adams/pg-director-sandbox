@@ -1,21 +1,24 @@
 .elevation {
-  &-dialog, &-picker, &-popover, &-tooltip {
-      z-index: 240 !important;
+  &-dialog,
+  &-picker,
+  &-popover,
+  &-tooltip {
+    z-index: 240 !important;
   }
 
   &-navigation-drawer {
-      z-index: 160 !important;
+    z-index: 160 !important;
   }
 
   &-menu {
-      z-index: 80 !important;
+    z-index: 80 !important;
   }
 
   &-snackbar {
-      z-index: 60 !important;
+    z-index: 60 !important;
   }
 
   &-toolbar {
-      z-index: 40 !important;
+    z-index: 40 !important;
   }
 }
