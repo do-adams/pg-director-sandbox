@@ -2,6 +2,7 @@
   "name": "pg-director-sandbox",
   "version": "1.0.0",
   "description": "A front-end sandbox for PG Director",
+  "private": true,
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
